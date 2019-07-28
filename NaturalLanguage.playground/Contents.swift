@@ -1,5 +1,3 @@
-
-
 import NaturalLanguage
 
 enum Emotion: String {
@@ -46,4 +44,3 @@ emojiForExpression("It's fabulous!")?.rawValue // wrong
 emojiForExpression("It was OK at first, but it got boring towards the end.")?.rawValue
 emojiForExpression("We're having an amazing time!")?.rawValue
 emojiForExpression("I'm depressed.")?.rawValue // wrong
-
